@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../CSS/base.css" />
+    <link rel="stylesheet" href="../CSS/Component/module.css" />
+    <link rel="stylesheet" href="../CSS/Component/input.css" />
+    <link rel="stylesheet" href="css/c.css" />
+</head>
+<body>
+<h2 class="title">聊天系统-普通用户</h2>
+
+<section class="info" id="info">
+    <div class="component-title">
+        <div class="subject">输入必要信息</div>
+        <div class="more"></div>
+    </div>
+
+    <table class="input-tb">
+        <tbody>
+        <tr>
+            <td>请输入用户类型:</td>
+            <td>
+                <input type="text" placeholder="用户类型" value="user" class="form-text" readonly="readonly" id="user_type" />
+                <font color="red">*</font>固定: admin-后台用户 user-前台用户
+            </td>
+        </tr>
+
+        <tr>
+            <td>请输入用户ID:</td>
+            <td>
+                <input type="text" placeholder="用户ID" value="1" class="form-text" id="user_id" />
+                <font color="red">*</font>可修改:请输入纯数字
+            </td>
+        </tr>
+
+        <tr>
+            <td>请输入用户名:</td>
+            <td>
+                <input type="text" placeholder="用户名" value='grayVTouch' class="form-text" id="nickname" />
+                <font color="red">*</font>可修改
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><button id="start_chat" class="btn-2">开始聊天</button></td>
+        </tr>
+
+        </tbody>
+    </table>
+</section>
+
+<div class="error">
+    <div class="component-title">
+        <div class="subject">错误信息</div>
+    </div>
+
+    <div class="content" id="error">---</div>
+</div>
+
+<section class="chat" id="chat">
+    <div class="rooms chat-rooms">
+        <div class="component-title">
+            <div class="subject">我的聊天室</div>
+            <div class="more">
+                <button class="btn-10" id="load_rooms">重载</button>
+            </div>
+        </div>
+
+        <div class="item-list" id="room_list">
+            <!--
+            <div class="item" data-id="id">---</div>
+            -->
+        </div>
+    </div>
+
+    <div class="rooms session">
+        <div class="component-title">
+            <div class="subject">我的会话</div>
+            <div class="more">
+                <button class="btn-10" id="advoise">咨询平台</button>
+            </div>
+        </div>
+
+        <div class="item-list" id="session_list">
+            <!--
+            <div class="item" data-id="id">---</div>
+            -->
+        </div>
+    </div>
+
+    <div class="message" id="message">
+        <div class="msg-item" data-id="123">
+            <div class="history">
+                <div class="component-title">
+                    <div class="subject">聊天记录</div>
+                    <div class="more"></div>
+                </div>
+
+                <div class="content">
+                    <div class="function">
+                        <button class="btn-8 load-more">加载更多</button>
+                    </div>
+
+                    <div class="msg-list">
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                        <div class="item">用户名:grayVTouch 你好,男孩们和女孩们</div>
+                    </div>
+
+                    <div class="input">
+                        <textarea class="textarea" id="input"></textarea>
+                        <button class="btn-2" data-id="chat_room_id" id="send">发送消息</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="users">
+                <div class="component-title">
+                    <div class="subject">聊天室成员（<span class="online red">2</span>/<span class="total">3</span>）</div>
+                </div>
+
+                <div class="item-list">
+                    <div class="item" data-userType="user_type" data-id="id"><span class="red">[在线/离线]</span> <span class="weight">grayVTouch</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="../js/SmallJs.js"></script>
+<script src="js/c.js"></script>
+</body>
+</html>

@@ -1,0 +1,2001 @@
+2018-03-22 09:51:05 pid:5876 Workerman[start.php] start in DEBUG mode
+2018-03-22 09:51:16 pid:5876 Workerman[start.php] stopping ...
+2018-03-22 09:51:16 pid:5876 Workerman[start.php] has been stopped
+2018-03-22 10:47:53 pid:10979 Workerman[start.php] start in DEBUG mode
+2018-03-22 11:19:12 pid:11635 Workerman[start.php] status 
+2018-03-22 11:19:25 pid:11640 Workerman[start.php] status 
+2018-03-22 14:57:06 pid:10979 Workerman[start.php] stopping ...
+2018-03-22 14:57:06 pid:10979 Workerman[start.php] has been stopped
+2018-04-03 09:14:03 pid:12739 Workerman[start.php] start in DEBUG mode
+2018-04-03 09:14:09 pid:12739 Workerman[start.php] stopping ...
+2018-04-03 09:14:09 pid:12739 Workerman[start.php] has been stopped
+2018-04-03 09:14:14 pid:12750 Workerman[start.php] start in DEBUG mode
+2018-04-03 09:14:56 pid:12750 Workerman[start.php] stopping ...
+2018-04-03 09:14:56 pid:12750 Workerman[start.php] has been stopped
+2018-04-03 09:14:58 pid:12765 Workerman[start.php] start in DEBUG mode
+2018-04-03 09:30:32 pid:12765 Workerman[start.php] stopping ...
+2018-04-03 09:30:32 pid:12765 Workerman[start.php] has been stopped
+2018-04-03 09:30:47 pid:12956 Workerman[start.php] start in DAEMON mode
+2018-04-03 09:31:09 pid:12968 Workerman[start.php] stop 
+2018-04-03 09:31:09 pid:12968 Workerman[start.php] is stoping ...
+2018-04-03 09:31:09 pid:12958 Workerman[start.php] stopping ...
+2018-04-03 09:31:09 pid:12958 Workerman[start.php] has been stopped
+2018-04-03 09:31:09 pid:12968 Workerman[start.php] stop success
+2018-04-03 09:31:22 pid:12970 Workerman[start.php] status 
+2018-04-03 09:31:22 pid:12970 Workerman[start.php] not run
+2018-04-03 09:31:29 pid:12974 Workerman[start.php] start in DAEMON mode
+2018-04-03 09:31:37 pid:12990 Workerman[start.php] status 
+2018-04-03 09:32:16 pid:13022 Workerman[start.php] start in DAEMON mode
+2018-04-03 09:32:16 pid:13022 Workerman[start.php] already running
+2018-04-03 09:32:24 pid:13023 Workerman[start.php] status 
+2018-04-03 10:32:22 pid:13623 Workerman[start.php] stop 
+2018-04-03 10:32:22 pid:13623 Workerman[start.php] is stoping ...
+2018-04-03 10:32:22 pid:12976 Workerman[start.php] stopping ...
+2018-04-03 10:32:22 pid:12976 Workerman[start.php] has been stopped
+2018-04-03 10:32:22 pid:13623 Workerman[start.php] stop success
+2018-04-08 09:07:26 pid:28797 Workerman[start.php] start in DEBUG mode
+2018-04-08 09:07:42 pid:28802 Exception: Cannot assign requested address in /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php:1960
+Stack trace:
+#0 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(482): Workerman\Worker->listen()
+#1 [internal function]: GatewayWorker\Gateway->onWorkerStart(Object(GatewayWorker\Gateway))
+#2 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\Gateway))
+#3 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(279): Workerman\Worker->run()
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\Gateway->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\Gateway))
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#8 /var/Website/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#9 {main}
+2018-04-08 09:07:42 pid:28804 Exception: Cannot assign requested address in /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php:1960
+Stack trace:
+#0 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(482): Workerman\Worker->listen()
+#1 [internal function]: GatewayWorker\Gateway->onWorkerStart(Object(GatewayWorker\Gateway))
+#2 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\Gateway))
+#3 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(279): Workerman\Worker->run()
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\Gateway->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\Gateway))
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#8 /var/Website/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#9 {main}
+2018-04-08 09:07:42 pid:28803 Exception: Cannot assign requested address in /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php:1960
+Stack trace:
+#0 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(482): Workerman\Worker->listen()
+#1 [internal function]: GatewayWorker\Gateway->onWorkerStart(Object(GatewayWorker\Gateway))
+#2 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\Gateway))
+#3 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(279): Workerman\Worker->run()
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\Gateway->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\Gateway))
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#8 /var/Website/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#9 {main}
+2018-04-08 09:07:43 pid:28802 Worker process terminated
+2018-04-08 09:07:43 pid:28804 Worker process terminated
+2018-04-08 09:07:43 pid:28803 Worker process terminated
+2018-04-08 09:07:43 pid:28797 worker[YourAppGateway:28803] exit with status 64000
+2018-04-08 09:07:43 pid:28797 worker[YourAppGateway:28802] exit with status 64000
+2018-04-08 09:07:43 pid:28797 worker[YourAppGateway:28804] exit with status 64000
+2018-04-08 09:07:43 pid:28805 Exception: Cannot assign requested address in /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php:1960
+Stack trace:
+#0 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(482): Workerman\Worker->listen()
+#1 [internal function]: GatewayWorker\Gateway->onWorkerStart(Object(GatewayWorker\Gateway))
+#2 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\Gateway))
+#3 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/Gateway.php(279): Workerman\Worker->run()
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\Gateway->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\Gateway))
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#8 /var/Website/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#9 {main}
+2018-04-08 09:07:44 pid:28805 Worker process terminated
+2018-04-08 09:07:44 pid:28797 worker[YourAppGateway:28805] exit with status 64000
+2018-04-08 09:07:49 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:49 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:50 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:50 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:50 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:51 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:51 pid:28797 Workerman[start.php] stopping ...
+2018-04-08 09:07:51 pid:28797 worker[YourAppGateway:28818] exit with status 9
+2018-04-08 09:07:51 pid:28797 worker[YourAppGateway:28815] exit with status 9
+2018-04-08 09:07:51 pid:28797 worker[YourAppGateway:28816] exit with status 9
+2018-04-08 09:07:51 pid:28797 worker[YourAppGateway:28817] exit with status 9
+2018-04-08 09:07:51 pid:28797 Workerman[start.php] has been stopped
+2018-04-08 13:35:21 pid:32693 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:35:46 pid:32693 Workerman[start.php] stopping ...
+2018-04-08 13:35:46 pid:32693 Workerman[start.php] has been stopped
+2018-04-08 13:35:50 pid:32715 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:35:55 pid:32715 Workerman[start.php] stopping ...
+2018-04-08 13:35:55 pid:32715 Workerman[start.php] has been stopped
+2018-04-08 13:36:39 pid:32740 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:36:43 pid:32740 Workerman[start.php] stopping ...
+2018-04-08 13:36:43 pid:32740 Workerman[start.php] has been stopped
+2018-04-08 13:36:47 pid:32751 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:37:02 pid:32751 Workerman[start.php] stopping ...
+2018-04-08 13:37:02 pid:32751 Workerman[start.php] has been stopped
+2018-04-08 13:37:04 pid:32768 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:37:12 pid:32768 Workerman[start.php] stopping ...
+2018-04-08 13:37:12 pid:32768 Workerman[start.php] has been stopped
+2018-04-08 13:37:32 pid:32786 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:42:11 pid:32786 Workerman[start.php] stopping ...
+2018-04-08 13:42:11 pid:32786 Workerman[start.php] has been stopped
+2018-04-08 13:42:14 pid:32877 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:42:20 pid:32877 Workerman[start.php] stopping ...
+2018-04-08 13:42:20 pid:32877 Workerman[start.php] has been stopped
+2018-04-08 13:42:44 pid:32898 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:42:47 pid:32898 Workerman[start.php] stopping ...
+2018-04-08 13:42:47 pid:32898 Workerman[start.php] has been stopped
+2018-04-08 13:43:20 pid:32924 Workerman[start.php] start in DEBUG mode
+2018-04-08 13:43:34 pid:32924 Workerman[start.php] stopping ...
+2018-04-08 13:43:34 pid:32924 Workerman[start.php] has been stopped
+2018-04-08 13:56:53 pid:33066 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:06:52 pid:33066 Workerman[start.php] stopping ...
+2018-04-08 14:06:52 pid:33071 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-08 14:06:52 pid:33066 Workerman[start.php] has been stopped
+2018-04-08 14:06:55 pid:33256 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:26:02 pid:33256 Workerman[start.php] stopping ...
+2018-04-08 14:26:02 pid:33256 Workerman[start.php] has been stopped
+2018-04-08 14:48:49 pid:34459 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:48:49 pid:34463 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#11 {main}
+2018-04-08 14:48:49 pid:34461 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#11 {main}
+2018-04-08 14:48:49 pid:34462 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#11 {main}
+2018-04-08 14:48:49 pid:34460 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#11 {main}
+2018-04-08 14:48:50 pid:34463 Worker process terminated
+2018-04-08 14:48:50 pid:34461 Worker process terminated
+2018-04-08 14:48:50 pid:34462 Worker process terminated
+2018-04-08 14:48:50 pid:34460 Worker process terminated
+2018-04-08 14:48:50 pid:34459 worker[YourAppBusinessWorker:34463] exit with status 64000
+2018-04-08 14:48:50 pid:34459 worker[YourAppBusinessWorker:34461] exit with status 64000
+2018-04-08 14:48:50 pid:34459 worker[YourAppBusinessWorker:34462] exit with status 64000
+2018-04-08 14:48:50 pid:34459 worker[YourAppBusinessWorker:34460] exit with status 64000
+2018-04-08 14:48:50 pid:34469 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:50 pid:34471 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:50 pid:34472 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:50 pid:34470 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:51 pid:34469 Worker process terminated
+2018-04-08 14:48:51 pid:34459 worker[YourAppBusinessWorker:34469] exit with status 64000
+2018-04-08 14:48:51 pid:34471 Worker process terminated
+2018-04-08 14:48:51 pid:34470 Worker process terminated
+2018-04-08 14:48:51 pid:34472 Worker process terminated
+2018-04-08 14:48:51 pid:34473 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:51 pid:34459 worker[YourAppBusinessWorker:34471] exit with status 64000
+2018-04-08 14:48:51 pid:34459 worker[YourAppBusinessWorker:34472] exit with status 64000
+2018-04-08 14:48:51 pid:34459 worker[YourAppBusinessWorker:34470] exit with status 64000
+2018-04-08 14:48:51 pid:34474 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:51 pid:34475 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:51 pid:34476 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:52 pid:34473 Worker process terminated
+2018-04-08 14:48:52 pid:34459 worker[YourAppBusinessWorker:34473] exit with status 64000
+2018-04-08 14:48:52 pid:34474 Worker process terminated
+2018-04-08 14:48:52 pid:34475 Worker process terminated
+2018-04-08 14:48:52 pid:34476 Worker process terminated
+2018-04-08 14:48:52 pid:34459 worker[YourAppBusinessWorker:34475] exit with status 64000
+2018-04-08 14:48:52 pid:34477 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:52 pid:34459 worker[YourAppBusinessWorker:34474] exit with status 64000
+2018-04-08 14:48:52 pid:34459 worker[YourAppBusinessWorker:34476] exit with status 64000
+2018-04-08 14:48:52 pid:34478 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:52 pid:34479 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:52 pid:34480 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:53 pid:34477 Worker process terminated
+2018-04-08 14:48:53 pid:34459 worker[YourAppBusinessWorker:34477] exit with status 64000
+2018-04-08 14:48:53 pid:34481 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:53 pid:34478 Worker process terminated
+2018-04-08 14:48:53 pid:34479 Worker process terminated
+2018-04-08 14:48:53 pid:34480 Worker process terminated
+2018-04-08 14:48:53 pid:34459 worker[YourAppBusinessWorker:34478] exit with status 64000
+2018-04-08 14:48:53 pid:34459 worker[YourAppBusinessWorker:34479] exit with status 64000
+2018-04-08 14:48:53 pid:34459 worker[YourAppBusinessWorker:34480] exit with status 64000
+2018-04-08 14:48:53 pid:34482 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:53 pid:34483 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:53 pid:34484 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:54 pid:34481 Worker process terminated
+2018-04-08 14:48:54 pid:34459 worker[YourAppBusinessWorker:34481] exit with status 64000
+2018-04-08 14:48:54 pid:34485 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:54 pid:34482 Worker process terminated
+2018-04-08 14:48:54 pid:34483 Worker process terminated
+2018-04-08 14:48:54 pid:34484 Worker process terminated
+2018-04-08 14:48:54 pid:34459 worker[YourAppBusinessWorker:34482] exit with status 64000
+2018-04-08 14:48:54 pid:34459 worker[YourAppBusinessWorker:34483] exit with status 64000
+2018-04-08 14:48:54 pid:34459 worker[YourAppBusinessWorker:34484] exit with status 64000
+2018-04-08 14:48:54 pid:34486 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:54 pid:34487 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:54 pid:34488 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:55 pid:34485 Worker process terminated
+2018-04-08 14:48:55 pid:34459 worker[YourAppBusinessWorker:34485] exit with status 64000
+2018-04-08 14:48:55 pid:34489 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:55 pid:34487 Worker process terminated
+2018-04-08 14:48:55 pid:34486 Worker process terminated
+2018-04-08 14:48:55 pid:34459 worker[YourAppBusinessWorker:34486] exit with status 64000
+2018-04-08 14:48:55 pid:34459 worker[YourAppBusinessWorker:34487] exit with status 64000
+2018-04-08 14:48:55 pid:34488 Worker process terminated
+2018-04-08 14:48:55 pid:34490 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:55 pid:34491 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:55 pid:34459 worker[YourAppBusinessWorker:34488] exit with status 64000
+2018-04-08 14:48:55 pid:34492 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:56 pid:34489 Worker process terminated
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34489] exit with status 64000
+2018-04-08 14:48:56 pid:34493 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:56 pid:34490 Worker process terminated
+2018-04-08 14:48:56 pid:34491 Worker process terminated
+2018-04-08 14:48:56 pid:34492 Worker process terminated
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34490] exit with status 64000
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34491] exit with status 64000
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34492] exit with status 64000
+2018-04-08 14:48:56 pid:34494 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:56 pid:34495 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:56 pid:34496 ArgumentCountError: Too few arguments to function Workerman\MySQL\Connection::__construct(), 4 passed in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php on line 32 and at least 5 expected in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1688
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php(32): Workerman\MySQL\Connection->__construct('127.0.0.1', '3306', 'root', '364793')
+#1 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#3 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-08 14:48:56 pid:34494 Worker process terminated
+2018-04-08 14:48:56 pid:34496 Worker process terminated
+2018-04-08 14:48:56 pid:34493 Worker process terminated
+2018-04-08 14:48:56 pid:34459 Workerman[start.php] stopping ...
+2018-04-08 14:48:56 pid:34495 Worker process terminated
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34494] exit with status 64000
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34496] exit with status 64000
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34493] exit with status 64000
+2018-04-08 14:48:56 pid:34459 worker[YourAppBusinessWorker:34495] exit with status 64000
+2018-04-08 14:48:56 pid:34459 Workerman[start.php] has been stopped
+2018-04-08 14:50:38 pid:34537 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:51:36 pid:34537 Workerman[start.php] stopping ...
+2018-04-08 14:51:36 pid:34537 Workerman[start.php] has been stopped
+2018-04-08 14:51:39 pid:34590 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:51:44 pid:34593 ArgumentCountError: Too few arguments to function Events::synRecentMsg(), 0 passed in /var/Website/GatewayWorker/Applications/YourApp/Events.php on line 96 and exactly 1 expected in /var/Website/GatewayWorker/Applications/YourApp/Events.php:58
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/Events.php(96): Events::synRecentMsg()
+#1 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"lo...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"lo...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49, 2, Resource id #49)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#14 {main}
+2018-04-08 14:51:44 pid:34593 Worker process terminated
+2018-04-08 14:51:44 pid:34590 worker[YourAppBusinessWorker:34593] exit with status 64000
+2018-04-08 14:51:47 pid:34590 Workerman[start.php] stopping ...
+2018-04-08 14:51:47 pid:34596 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-08 14:51:47 pid:34590 Workerman[start.php] has been stopped
+2018-04-08 14:52:06 pid:34615 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:53:08 pid:34615 Workerman[start.php] stopping ...
+2018-04-08 14:53:08 pid:34615 Workerman[start.php] has been stopped
+2018-04-08 14:53:11 pid:34650 Workerman[start.php] start in DEBUG mode
+2018-04-08 14:53:14 pid:34653 Exception: type empty in /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php:1537
+Stack trace:
+#0 /var/Website/GatewayWorker/vendor/workerman/mysql/src/Connection.php(1821): Workerman\MySQL\Connection->build()
+#1 /var/Website/GatewayWorker/Applications/YourApp/Events.php(70): Workerman\MySQL\Connection->query()
+#2 /var/Website/GatewayWorker/Applications/YourApp/Events.php(96): Events::synRecentMsg(Array)
+#3 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"lo...')
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"lo...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43, 2, Resource id #43)
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-08 14:53:14 pid:34653 Worker process terminated
+2018-04-08 14:53:14 pid:34650 worker[YourAppBusinessWorker:34653] exit with status 64000
+2018-04-08 14:58:17 pid:34650 Workerman[start.php] stopping ...
+2018-04-08 14:58:17 pid:34650 Workerman[start.php] has been stopped
+2018-04-08 15:08:58 pid:34973 Workerman[start.php] start in DEBUG mode
+2018-04-08 15:09:02 pid:34976 Error: Call to undefined function Core\System\app() in /var/Website/GatewayWorker/Applications/YourApp/Core/System/DatabaseTable.php:61
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/YourApp/Core/System/DBConnection.php(27): Core\System\DatabaseTable->__construct(Object(Core\Lib\Database), 'chat_room_users', 'vm_')
+#1 /var/Website/GatewayWorker/Applications/YourApp/Events.php(67): Core\System\DBConnection->table('chat_room_users')
+#2 /var/Website/GatewayWorker/Applications/YourApp/Events.php(96): Events::synRecentMsg(Array)
+#3 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"lo...')
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"lo...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44, 2, Resource id #44)
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-08 15:09:02 pid:34976 Worker process terminated
+2018-04-08 15:09:02 pid:34973 worker[YourAppBusinessWorker:34976] exit with status 64000
+2018-04-08 15:09:07 pid:34973 Workerman[start.php] stopping ...
+2018-04-08 15:09:07 pid:34973 Workerman[start.php] has been stopped
+2018-04-08 15:13:11 pid:35066 Workerman[start.php] start in DEBUG mode
+2018-04-08 15:28:18 pid:35066 Workerman[start.php] stopping ...
+2018-04-08 15:28:18 pid:35066 Workerman[start.php] has been stopped
+2018-04-08 15:28:28 pid:35312 Workerman[start.php] start in DEBUG mode
+2018-04-08 17:41:31 pid:35312 Workerman[start.php] stopping ...
+2018-04-08 17:41:31 pid:35312 Workerman[start.php] has been stopped
+2018-04-08 17:59:44 pid:37691 Workerman[start.php] start in DEBUG mode
+2018-04-08 18:01:48 pid:37691 Workerman[start.php] stopping ...
+2018-04-08 18:01:48 pid:37691 Workerman[start.php] has been stopped
+2018-04-08 18:01:51 pid:37740 Workerman[start.php] start in DEBUG mode
+2018-04-08 18:02:07 pid:37740 Workerman[start.php] stopping ...
+2018-04-08 18:02:07 pid:37740 Workerman[start.php] has been stopped
+2018-04-10 09:53:05 pid:43202 Workerman[start.php] start in DEBUG mode
+2018-04-10 09:53:05 pid:43204 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:53:05 pid:43203 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:53:05 pid:43206 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:53:05 pid:43205 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:53:06 pid:43203 Worker process terminated
+2018-04-10 09:53:06 pid:43204 Worker process terminated
+2018-04-10 09:53:06 pid:43202 worker[YourAppBusinessWorker:43203] exit with status 64000
+2018-04-10 09:53:06 pid:43202 worker[YourAppBusinessWorker:43204] exit with status 64000
+2018-04-10 09:53:06 pid:43206 Worker process terminated
+2018-04-10 09:53:06 pid:43202 worker[YourAppBusinessWorker:43206] exit with status 64000
+2018-04-10 09:53:06 pid:43205 Worker process terminated
+2018-04-10 09:53:06 pid:43213 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:06 pid:43212 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:06 pid:43214 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:06 pid:43202 worker[YourAppBusinessWorker:43205] exit with status 64000
+2018-04-10 09:53:06 pid:43215 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:07 pid:43213 Worker process terminated
+2018-04-10 09:53:07 pid:43212 Worker process terminated
+2018-04-10 09:53:07 pid:43214 Worker process terminated
+2018-04-10 09:53:07 pid:43202 worker[YourAppBusinessWorker:43212] exit with status 64000
+2018-04-10 09:53:07 pid:43202 worker[YourAppBusinessWorker:43214] exit with status 64000
+2018-04-10 09:53:07 pid:43202 worker[YourAppBusinessWorker:43213] exit with status 64000
+2018-04-10 09:53:07 pid:43215 Worker process terminated
+2018-04-10 09:53:07 pid:43216 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:07 pid:43218 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:07 pid:43202 worker[YourAppBusinessWorker:43215] exit with status 64000
+2018-04-10 09:53:07 pid:43217 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:07 pid:43219 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:53:08 pid:43218 Worker process terminated
+2018-04-10 09:53:08 pid:43219 Worker process terminated
+2018-04-10 09:53:08 pid:43216 Worker process terminated
+2018-04-10 09:53:08 pid:43202 Workerman[start.php] stopping ...
+2018-04-10 09:53:08 pid:43202 worker[YourAppBusinessWorker:43218] exit with status 64000
+2018-04-10 09:53:08 pid:43202 worker[YourAppBusinessWorker:43219] exit with status 64000
+2018-04-10 09:53:08 pid:43217 Worker process terminated
+2018-04-10 09:53:08 pid:43202 worker[YourAppBusinessWorker:43216] exit with status 64000
+2018-04-10 09:53:08 pid:43202 worker[YourAppBusinessWorker:43217] exit with status 64000
+2018-04-10 09:53:08 pid:43202 Workerman[start.php] has been stopped
+2018-04-10 09:54:16 pid:43243 Workerman[start.php] start in DEBUG mode
+2018-04-10 09:54:16 pid:43248 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:54:16 pid:43251 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:54:16 pid:43250 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:54:16 pid:43249 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#10 {main}
+2018-04-10 09:54:17 pid:43248 Worker process terminated
+2018-04-10 09:54:17 pid:43251 Worker process terminated
+2018-04-10 09:54:17 pid:43250 Worker process terminated
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43248] exit with status 64000
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43251] exit with status 64000
+2018-04-10 09:54:17 pid:43249 Worker process terminated
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43250] exit with status 64000
+2018-04-10 09:54:17 pid:43257 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43249] exit with status 64000
+2018-04-10 09:54:17 pid:43259 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:54:17 pid:43258 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:54:17 pid:43260 Error: Access to undeclared static property: Events::$db in /var/Website/GatewayWorker/Applications/YourApp/start_businessworker1.php:40
+Stack trace:
+#0 [internal function]: {closure}(Object(GatewayWorker\BusinessWorker))
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(207): call_user_func(Object(Closure), Object(GatewayWorker\BusinessWorker))
+#2 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2081): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#11 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#12 {main}
+2018-04-10 09:54:17 pid:43259 Worker process terminated
+2018-04-10 09:54:17 pid:43257 Worker process terminated
+2018-04-10 09:54:17 pid:43260 Worker process terminated
+2018-04-10 09:54:17 pid:43243 Workerman[start.php] stopping ...
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43257] exit with status 64000
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43259] exit with status 64000
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43260] exit with status 64000
+2018-04-10 09:54:17 pid:43258 Worker process terminated
+2018-04-10 09:54:17 pid:43243 worker[YourAppBusinessWorker:43258] exit with status 64000
+2018-04-10 09:54:17 pid:43243 Workerman[start.php] has been stopped
+2018-04-10 09:54:42 pid:43271 Workerman[start.php] start in DEBUG mode
+2018-04-10 10:05:19 pid:43271 Workerman[start.php] stopping ...
+2018-04-10 10:05:19 pid:43276 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-10 10:05:19 pid:43277 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-10 10:05:19 pid:43271 Workerman[start.php] has been stopped
+2018-04-10 11:26:37 pid:44512 Workerman[start.php] start in DEBUG mode
+2018-04-10 15:09:07 pid:44512 Workerman[start.php] stopping ...
+2018-04-10 15:09:07 pid:44512 Workerman[start.php] has been stopped
+2018-04-10 15:09:10 pid:46575 Workerman[start.php] start in DEBUG mode
+2018-04-10 15:09:37 pid:46575 Workerman[start.php] stopping ...
+2018-04-10 15:09:37 pid:46575 Workerman[start.php] has been stopped
+2018-04-10 16:41:43 pid:48033 Workerman[start.php] start in DEBUG mode
+2018-04-10 16:42:11 pid:48033 Workerman[start.php] stopping ...
+2018-04-10 16:42:11 pid:48033 Workerman[start.php] has been stopped
+2018-04-10 16:42:14 pid:48054 Workerman[start.php] start in DEBUG mode
+2018-04-10 16:42:16 pid:48054 Workerman[start.php] stopping ...
+2018-04-10 16:42:16 pid:48054 Workerman[start.php] has been stopped
+2018-04-11 09:58:46 pid:6007 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:04:42 pid:6007 Workerman[start.php] stopping ...
+2018-04-11 10:04:42 pid:6007 Workerman[start.php] has been stopped
+2018-04-11 10:04:44 pid:6242 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:08:58 pid:6242 Workerman[start.php] stopping ...
+2018-04-11 10:08:58 pid:6242 Workerman[start.php] has been stopped
+2018-04-11 10:09:31 pid:6486 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:09:56 pid:6486 Workerman[start.php] stopping ...
+2018-04-11 10:09:56 pid:6486 Workerman[start.php] has been stopped
+2018-04-11 10:26:20 pid:7192 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:26:25 pid:7196 PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vanmiao.vm_chat_room_users' doesn't exist in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(270): Core\Lib\Database->query('select chat_roo...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(89): Core\Lib\Database->getAll('select chat_roo...', Array)
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(431): Events::synMsg('7f0000010b57000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"msg_type":"lo...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"msg_type":"lo...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, Resource id #47)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#17 {main}
+2018-04-11 10:26:25 pid:7196 Worker process terminated
+2018-04-11 10:26:25 pid:7192 worker[MessageSystem:7196] exit with status 64000
+2018-04-11 10:27:23 pid:7192 Workerman[start.php] stopping ...
+2018-04-11 10:27:23 pid:7192 Workerman[start.php] has been stopped
+2018-04-11 10:27:26 pid:7224 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:33:12 pid:7224 Workerman[start.php] stopping ...
+2018-04-11 10:33:12 pid:7229 SendBufferToWorker fail. May be the send buffer are overflow. See http://wiki.workerman.net/Error2 for detail
+2018-04-11 10:33:12 pid:7224 Workerman[start.php] has been stopped
+2018-04-11 10:33:54 pid:7468 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:35:52 pid:7468 Workerman[start.php] stopping ...
+2018-04-11 10:35:52 pid:7473 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 10:35:52 pid:7468 Workerman[start.php] has been stopped
+2018-04-11 10:35:54 pid:7534 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:39:08 pid:7534 Workerman[start.php] stopping ...
+2018-04-11 10:39:08 pid:7539 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 10:39:08 pid:7534 Workerman[start.php] has been stopped
+2018-04-11 10:39:11 pid:7658 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:40:03 pid:7658 Workerman[start.php] stopping ...
+2018-04-11 10:40:04 pid:7658 Workerman[start.php] has been stopped
+2018-04-11 10:40:06 pid:7732 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:46:32 pid:7732 Workerman[start.php] stopping ...
+2018-04-11 10:46:32 pid:7732 Workerman[start.php] has been stopped
+2018-04-11 10:46:34 pid:8025 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:54:37 pid:8025 Workerman[start.php] stopping ...
+2018-04-11 10:54:37 pid:8025 Workerman[start.php] has been stopped
+2018-04-11 10:54:41 pid:8240 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:56:04 pid:8240 Workerman[start.php] stopping ...
+2018-04-11 10:56:04 pid:8240 Workerman[start.php] has been stopped
+2018-04-11 10:56:06 pid:8307 Workerman[start.php] start in DEBUG mode
+2018-04-11 10:56:38 pid:8307 Workerman[start.php] stopping ...
+2018-04-11 10:56:38 pid:8307 Workerman[start.php] has been stopped
+2018-04-11 10:56:40 pid:8334 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:26:46 pid:8334 Workerman[start.php] stopping ...
+2018-04-11 11:26:46 pid:8334 Workerman[start.php] has been stopped
+2018-04-11 11:27:08 pid:10185 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:27:22 pid:10189 ArgumentCountError: Too few arguments to function Events::getChatRoom(), 1 passed in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php on line 231 and exactly 2 expected in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:165
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(231): Events::getChatRoom('bdb1dd105679979...')
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(330): Events::joinChatRoom('bdb1dd105679979...', 'user', 1)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(421): Events::advoise('7f0000010b56000...', Array)
+#3 [internal function]: Events::onMessage('7f0000010b56000...', '{"msg_type":"ad...')
+#4 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"msg_type":"ad...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45, 2, Resource id #45)
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-11 11:27:22 pid:10189 Worker process terminated
+2018-04-11 11:27:22 pid:10185 worker[MessageSystem:10189] exit with status 64000
+2018-04-11 11:27:25 pid:10185 Workerman[start.php] stopping ...
+2018-04-11 11:27:25 pid:10185 Workerman[start.php] has been stopped
+2018-04-11 11:28:38 pid:10229 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:32:31 pid:10229 Workerman[start.php] stopping ...
+2018-04-11 11:32:31 pid:10234 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 11:32:31 pid:10229 Workerman[start.php] has been stopped
+2018-04-11 11:32:34 pid:10319 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:45:47 pid:10319 Workerman[start.php] stopping ...
+2018-04-11 11:45:47 pid:10319 Workerman[start.php] has been stopped
+2018-04-11 11:45:49 pid:10535 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:52:22 pid:10535 Workerman[start.php] stopping ...
+2018-04-11 11:52:22 pid:10535 Workerman[start.php] has been stopped
+2018-04-11 11:52:34 pid:10658 Workerman[start.php] start in DEBUG mode
+2018-04-11 11:57:25 pid:10658 Workerman[start.php] stopping ...
+2018-04-11 11:57:25 pid:10658 Workerman[start.php] has been stopped
+2018-04-11 11:57:28 pid:10825 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:37:49 pid:10825 Workerman[start.php] stopping ...
+2018-04-11 13:37:49 pid:10825 Workerman[start.php] has been stopped
+2018-04-11 13:37:51 pid:11376 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:40:06 pid:11376 Workerman[start.php] stopping ...
+2018-04-11 13:40:06 pid:11376 Workerman[start.php] has been stopped
+2018-04-11 13:40:09 pid:11455 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:51:27 pid:11455 Workerman[start.php] stopping ...
+2018-04-11 13:51:27 pid:11455 Workerman[start.php] has been stopped
+2018-04-11 13:51:29 pid:11968 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:54:17 pid:11968 Workerman[start.php] stopping ...
+2018-04-11 13:54:17 pid:11968 Workerman[start.php] has been stopped
+2018-04-11 13:54:20 pid:12048 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:56:24 pid:12048 Workerman[start.php] stopping ...
+2018-04-11 13:56:24 pid:12053 SendBufferToWorker fail. May be the send buffer are overflow. See http://wiki.workerman.net/Error2 for detail
+2018-04-11 13:56:24 pid:12048 Workerman[start.php] has been stopped
+2018-04-11 13:56:26 pid:12097 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:58:00 pid:12097 Workerman[start.php] stopping ...
+2018-04-11 13:58:00 pid:12097 Workerman[start.php] has been stopped
+2018-04-11 13:58:02 pid:12168 Workerman[start.php] start in DEBUG mode
+2018-04-11 13:59:55 pid:12168 Workerman[start.php] stopping ...
+2018-04-11 13:59:55 pid:12168 Workerman[start.php] has been stopped
+2018-04-11 13:59:57 pid:12214 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:01:20 pid:12214 Workerman[start.php] stopping ...
+2018-04-11 14:01:20 pid:12214 Workerman[start.php] has been stopped
+2018-04-11 14:01:22 pid:12257 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:05:59 pid:12257 Workerman[start.php] stopping ...
+2018-04-11 14:05:59 pid:12257 Workerman[start.php] has been stopped
+2018-04-11 14:06:01 pid:12360 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:06:22 pid:12362 PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'bdb1dd105679979ca82b28edd1c8ccd2' for column 'chat_room_id' at row 1 in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(215): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(360): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(437): Events::advoise('7f0000010b57000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46, 2, Resource id #46)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#17 {main}
+2018-04-11 14:06:22 pid:12362 Worker process terminated
+2018-04-11 14:06:22 pid:12360 worker[MessageSystem:12362] exit with status 64000
+2018-04-11 14:06:26 pid:12360 Workerman[start.php] stopping ...
+2018-04-11 14:06:26 pid:12360 Workerman[start.php] has been stopped
+2018-04-11 14:10:17 pid:12544 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:11:09 pid:12546 Error: Call to undefined function exlode() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:314
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(437): Events::advoise('7f0000010b57000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b57000...', '{"msg_type":"ad...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"msg_type":"ad...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, Resource id #47)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#14 {main}
+2018-04-11 14:11:09 pid:12546 Worker process terminated
+2018-04-11 14:11:09 pid:12544 worker[MessageSystem:12546] exit with status 64000
+2018-04-11 14:11:26 pid:12544 Workerman[start.php] stopping ...
+2018-04-11 14:11:26 pid:12544 Workerman[start.php] has been stopped
+2018-04-11 14:11:56 pid:12613 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:14:02 pid:12613 Workerman[start.php] stopping ...
+2018-04-11 14:14:02 pid:12613 Workerman[start.php] has been stopped
+2018-04-11 14:14:05 pid:12698 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:14:36 pid:12698 Workerman[start.php] stopping ...
+2018-04-11 14:14:36 pid:12698 Workerman[start.php] has been stopped
+2018-04-11 14:14:38 pid:12723 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:18:10 pid:12723 Workerman[start.php] stopping ...
+2018-04-11 14:18:10 pid:12723 Workerman[start.php] has been stopped
+2018-04-11 14:18:50 pid:12854 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:19:51 pid:12854 Workerman[start.php] stopping ...
+2018-04-11 14:19:51 pid:12854 Workerman[start.php] has been stopped
+2018-04-11 14:19:54 pid:12893 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:20:01 pid:12893 Workerman[start.php] stopping ...
+2018-04-11 14:20:01 pid:12893 Workerman[start.php] has been stopped
+2018-04-11 14:34:03 pid:13527 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:34:25 pid:13527 Workerman[start.php] stopping ...
+2018-04-11 14:34:25 pid:13527 Workerman[start.php] has been stopped
+2018-04-11 14:34:52 pid:13555 Workerman[start.php] start in DEBUG mode
+2018-04-11 14:36:28 pid:13555 Workerman[start.php] stopping ...
+2018-04-11 14:36:28 pid:13555 Workerman[start.php] has been stopped
+2018-04-11 16:09:15 pid:16354 Workerman[start.php] start in DEBUG mode
+2018-04-11 16:24:07 pid:16354 Workerman[start.php] stopping ...
+2018-04-11 16:24:07 pid:16354 Workerman[start.php] has been stopped
+2018-04-11 16:24:09 pid:16643 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:01:14 pid:16643 Workerman[start.php] stopping ...
+2018-04-11 17:01:14 pid:16643 Workerman[start.php] has been stopped
+2018-04-11 17:01:17 pid:17332 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:06:51 pid:17332 Workerman[start.php] stopping ...
+2018-04-11 17:06:51 pid:17340 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 17:06:51 pid:17332 Workerman[start.php] has been stopped
+2018-04-11 17:06:53 pid:17451 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:08:03 pid:17451 Workerman[start.php] stopping ...
+2018-04-11 17:08:03 pid:17451 Workerman[start.php] has been stopped
+2018-04-11 17:08:05 pid:17490 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:08:29 pid:17490 Workerman[start.php] stopping ...
+2018-04-11 17:08:29 pid:17497 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 17:08:29 pid:17490 Workerman[start.php] has been stopped
+2018-04-11 17:08:50 pid:17511 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:09:54 pid:17511 Workerman[start.php] stopping ...
+2018-04-11 17:09:54 pid:17511 Workerman[start.php] has been stopped
+2018-04-11 17:09:57 pid:17545 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:12:03 pid:17545 Workerman[start.php] stopping ...
+2018-04-11 17:12:03 pid:17553 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 17:12:03 pid:17545 Workerman[start.php] has been stopped
+2018-04-11 17:12:10 pid:17587 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:24:49 pid:3887 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:31:07 pid:3887 Workerman[start.php] stopping ...
+2018-04-11 17:31:07 pid:3887 Workerman[start.php] has been stopped
+2018-04-11 17:31:16 pid:4212 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:35:45 pid:4212 Workerman[start.php] stopping ...
+2018-04-11 17:35:45 pid:4212 Workerman[start.php] has been stopped
+2018-04-11 17:35:47 pid:4356 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:37:06 pid:4356 Workerman[start.php] stopping ...
+2018-04-11 17:37:06 pid:4356 Workerman[start.php] has been stopped
+2018-04-11 17:37:10 pid:4422 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:44:07 pid:4422 Workerman[start.php] stopping ...
+2018-04-11 17:44:07 pid:4428 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 17:44:07 pid:4428 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-11 17:44:07 pid:4422 Workerman[start.php] has been stopped
+2018-04-11 17:44:10 pid:4937 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:45:22 pid:4937 Workerman[start.php] stopping ...
+2018-04-11 17:45:22 pid:4937 Workerman[start.php] has been stopped
+2018-04-11 17:45:25 pid:4995 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:46:55 pid:4995 Workerman[start.php] stopping ...
+2018-04-11 17:46:55 pid:4995 Workerman[start.php] has been stopped
+2018-04-11 17:46:58 pid:5047 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:49:46 pid:5047 Workerman[start.php] stopping ...
+2018-04-11 17:49:46 pid:5047 Workerman[start.php] has been stopped
+2018-04-11 17:49:49 pid:5156 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:50:59 pid:5156 Workerman[start.php] stopping ...
+2018-04-11 17:50:59 pid:5156 Workerman[start.php] has been stopped
+2018-04-11 17:51:01 pid:5222 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:55:30 pid:5222 Workerman[start.php] stopping ...
+2018-04-11 17:55:30 pid:5222 Workerman[start.php] has been stopped
+2018-04-11 17:55:33 pid:5346 Workerman[start.php] start in DEBUG mode
+2018-04-11 17:59:53 pid:5346 Workerman[start.php] stopping ...
+2018-04-11 17:59:53 pid:5346 Workerman[start.php] has been stopped
+2018-04-12 09:51:50 pid:10598 Workerman[start.php] start in DEBUG mode
+2018-04-12 09:51:56 pid:10598 Workerman[start.php] stopping ...
+2018-04-12 09:51:56 pid:10598 Workerman[start.php] has been stopped
+2018-04-12 09:51:58 pid:10611 Workerman[start.php] start in DEBUG mode
+2018-04-12 09:57:53 pid:10611 Workerman[start.php] stopping ...
+2018-04-12 09:57:53 pid:10611 Workerman[start.php] has been stopped
+2018-04-12 14:38:01 pid:15734 Workerman[start.php] start in DEBUG mode
+2018-04-12 14:38:10 pid:15737 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, Resource id #47)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 14:38:10 pid:15737 Worker process terminated
+2018-04-12 14:38:10 pid:15734 worker[MessageSystem:15737] exit with status 64000
+2018-04-12 14:38:58 pid:15734 Workerman[start.php] stopping ...
+2018-04-12 14:38:58 pid:15734 Workerman[start.php] has been stopped
+2018-04-12 14:39:01 pid:15776 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:00:55 pid:15780 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44, 2, Resource id #44)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 15:00:55 pid:15780 Worker process terminated
+2018-04-12 15:00:55 pid:15776 worker[MessageSystem:15780] exit with status 64000
+2018-04-12 15:02:20 pid:15779 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45, 2, Resource id #45)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 15:02:20 pid:15779 Worker process terminated
+2018-04-12 15:02:20 pid:15776 worker[MessageSystem:15779] exit with status 64000
+2018-04-12 15:02:41 pid:15778 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48, 2, Resource id #48)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 15:02:41 pid:15778 Worker process terminated
+2018-04-12 15:02:41 pid:15776 worker[MessageSystem:15778] exit with status 64000
+2018-04-12 15:04:46 pid:15777 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43, 2, Resource id #43)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 15:04:46 pid:15777 Worker process terminated
+2018-04-12 15:04:46 pid:15776 worker[MessageSystem:15777] exit with status 64000
+2018-04-12 15:05:02 pid:15776 Workerman[start.php] stopping ...
+2018-04-12 15:05:02 pid:15781 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-12 15:05:02 pid:15776 Workerman[start.php] has been stopped
+2018-04-12 15:05:08 pid:16287 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:05:14 pid:16289 Error: Call to undefined method GatewayWorker\Lib\Gateway::send() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:571
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"sy...')
+#1 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"sy...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44, 2, Resource id #44)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#12 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#13 {main}
+2018-04-12 15:05:14 pid:16289 Worker process terminated
+2018-04-12 15:05:14 pid:16287 worker[MessageSystem:16289] exit with status 64000
+2018-04-12 15:05:16 pid:16287 Workerman[start.php] stopping ...
+2018-04-12 15:05:16 pid:16287 Workerman[start.php] has been stopped
+2018-04-12 15:05:55 pid:16320 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:06:08 pid:16321 PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vanmiao.vm_admin_user' doesn't exist in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(231): Core\Lib\Database->query('select nickname...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(282): Core\Lib\Database->get('select nickname...', Array)
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(554): Events::getChatRoomUser('bdb1dd105679979...')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"msg_type":"us...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"msg_type":"us...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46, 2, Resource id #46)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#17 {main}
+2018-04-12 15:06:08 pid:16321 Worker process terminated
+2018-04-12 15:06:08 pid:16320 worker[MessageSystem:16321] exit with status 64000
+2018-04-12 15:06:11 pid:16320 Workerman[start.php] stopping ...
+2018-04-12 15:06:11 pid:16320 Workerman[start.php] has been stopped
+2018-04-12 15:08:20 pid:16625 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:16:07 pid:16625 Workerman[start.php] stopping ...
+2018-04-12 15:16:07 pid:16625 Workerman[start.php] has been stopped
+2018-04-12 15:16:09 pid:16785 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:19:28 pid:16785 Workerman[start.php] stopping ...
+2018-04-12 15:19:28 pid:16785 Workerman[start.php] has been stopped
+2018-04-12 15:19:57 pid:16930 Workerman[start.php] start in DEBUG mode
+2018-04-12 15:30:28 pid:16930 Workerman[start.php] stopping ...
+2018-04-12 15:30:28 pid:16930 Workerman[start.php] has been stopped
+2018-04-12 15:30:31 pid:17180 Workerman[start.php] start in DEBUG mode
+2018-04-12 16:24:06 pid:17180 Workerman[start.php] stopping ...
+2018-04-12 16:24:06 pid:17180 Workerman[start.php] has been stopped
+2018-04-12 16:40:05 pid:18612 Workerman[start.php] start in DEBUG mode
+2018-04-12 16:44:00 pid:18612 Workerman[start.php] stopping ...
+2018-04-12 16:44:00 pid:18618 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-12 16:44:01 pid:18612 Workerman[start.php] has been stopped
+2018-04-12 16:44:03 pid:18775 Workerman[start.php] start in DEBUG mode
+2018-04-12 16:45:17 pid:18775 Workerman[start.php] stopping ...
+2018-04-12 16:45:17 pid:18781 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-12 16:45:17 pid:18775 Workerman[start.php] has been stopped
+2018-04-12 16:45:20 pid:18833 Workerman[start.php] start in DEBUG mode
+2018-04-12 16:51:11 pid:18833 Workerman[start.php] stopping ...
+2018-04-12 16:51:11 pid:18833 Workerman[start.php] has been stopped
+2018-04-12 16:51:13 pid:18904 Workerman[start.php] start in DEBUG mode
+2018-04-12 17:24:50 pid:18904 Workerman[start.php] stopping ...
+2018-04-12 17:24:50 pid:18911 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-12 17:24:50 pid:18904 Workerman[start.php] has been stopped
+2018-04-12 17:24:53 pid:19813 Workerman[start.php] start in DEBUG mode
+2018-04-12 17:28:39 pid:19813 Workerman[start.php] stopping ...
+2018-04-12 17:28:39 pid:19813 Workerman[start.php] has been stopped
+2018-04-12 17:28:41 pid:19908 Workerman[start.php] start in DEBUG mode
+2018-04-12 17:35:57 pid:19908 Workerman[start.php] stopping ...
+2018-04-12 17:35:57 pid:19908 Workerman[start.php] has been stopped
+2018-04-12 17:36:02 pid:20047 Workerman[start.php] start in DEBUG mode
+2018-04-12 17:37:23 pid:20047 Workerman[start.php] stopping ...
+2018-04-12 17:37:23 pid:20047 Workerman[start.php] has been stopped
+2018-04-12 17:37:25 pid:20089 Workerman[start.php] start in DEBUG mode
+2018-04-12 17:54:00 pid:20089 Workerman[start.php] stopping ...
+2018-04-12 17:54:00 pid:20089 Workerman[start.php] has been stopped
+2018-04-12 17:54:02 pid:20709 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:07:12 pid:20709 Workerman[start.php] stopping ...
+2018-04-13 10:07:12 pid:20709 Workerman[start.php] has been stopped
+2018-04-13 10:07:15 pid:22339 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:09:21 pid:22339 Workerman[start.php] stopping ...
+2018-04-13 10:09:21 pid:22339 Workerman[start.php] has been stopped
+2018-04-13 10:11:25 pid:22426 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:11:30 pid:22426 Workerman[start.php] stopping ...
+2018-04-13 10:11:30 pid:22426 Workerman[start.php] has been stopped
+2018-04-13 10:15:14 pid:22505 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:17:15 pid:22505 Workerman[start.php] stopping ...
+2018-04-13 10:17:15 pid:22513 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-13 10:17:15 pid:22505 Workerman[start.php] has been stopped
+2018-04-13 10:17:17 pid:22554 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:18:40 pid:22554 Workerman[start.php] stopping ...
+2018-04-13 10:18:40 pid:22554 Workerman[start.php] has been stopped
+2018-04-13 10:18:43 pid:22600 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:20:06 pid:22600 Workerman[start.php] stopping ...
+2018-04-13 10:20:06 pid:22600 Workerman[start.php] has been stopped
+2018-04-13 10:20:08 pid:22648 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:21:51 pid:22648 Workerman[start.php] stopping ...
+2018-04-13 10:21:51 pid:22648 Workerman[start.php] has been stopped
+2018-04-13 10:21:53 pid:22695 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:22:41 pid:22695 Workerman[start.php] stopping ...
+2018-04-13 10:22:41 pid:22695 Workerman[start.php] has been stopped
+2018-04-13 10:22:43 pid:22729 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:26:31 pid:22729 Workerman[start.php] stopping ...
+2018-04-13 10:26:32 pid:22729 Workerman[start.php] has been stopped
+2018-04-13 10:26:34 pid:22867 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:26:35 pid:22867 Workerman[start.php] stopping ...
+2018-04-13 10:26:35 pid:22867 Workerman[start.php] has been stopped
+2018-04-13 10:27:29 pid:22905 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:27:31 pid:22905 Workerman[start.php] stopping ...
+2018-04-13 10:27:31 pid:22905 Workerman[start.php] has been stopped
+2018-04-13 10:29:03 pid:22955 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:29:04 pid:22955 Workerman[start.php] stopping ...
+2018-04-13 10:29:04 pid:22955 Workerman[start.php] has been stopped
+2018-04-13 10:32:50 pid:23029 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:33:20 pid:23029 Workerman[start.php] stopping ...
+2018-04-13 10:33:20 pid:23029 Workerman[start.php] has been stopped
+2018-04-13 10:33:23 pid:23054 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:34:03 pid:23054 Workerman[start.php] stopping ...
+2018-04-13 10:34:03 pid:23059 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-13 10:34:03 pid:23054 Workerman[start.php] has been stopped
+2018-04-13 10:42:38 pid:23185 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:49:48 pid:23185 Workerman[start.php] stopping ...
+2018-04-13 10:49:48 pid:23193 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-13 10:49:48 pid:23185 Workerman[start.php] has been stopped
+2018-04-13 10:50:02 pid:23420 Workerman[start.php] start in DEBUG mode
+2018-04-13 10:51:45 pid:23420 Workerman[start.php] stopping ...
+2018-04-13 10:51:45 pid:23420 Workerman[start.php] has been stopped
+2018-04-13 10:51:47 pid:23468 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:13:19 pid:23468 Workerman[start.php] stopping ...
+2018-04-13 11:13:19 pid:23468 Workerman[start.php] has been stopped
+2018-04-13 11:15:15 pid:23937 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:18:58 pid:23937 Workerman[start.php] stopping ...
+2018-04-13 11:18:58 pid:23937 Workerman[start.php] has been stopped
+2018-04-13 11:19:20 pid:24079 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:21:25 pid:24079 Workerman[start.php] stopping ...
+2018-04-13 11:21:25 pid:24079 Workerman[start.php] has been stopped
+2018-04-13 11:21:28 pid:24173 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:34:09 pid:24173 Workerman[start.php] stopping ...
+2018-04-13 11:34:09 pid:24173 Workerman[start.php] has been stopped
+2018-04-13 11:34:23 pid:24660 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:42:34 pid:24660 Workerman[start.php] stopping ...
+2018-04-13 11:42:34 pid:24660 Workerman[start.php] has been stopped
+2018-04-13 11:42:37 pid:25033 Workerman[start.php] start in DEBUG mode
+2018-04-13 11:53:34 pid:25033 Workerman[start.php] stopping ...
+2018-04-13 11:53:34 pid:25040 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-13 11:53:35 pid:25033 Workerman[start.php] has been stopped
+2018-04-13 11:53:57 pid:25236 Workerman[start.php] start in DEBUG mode
+2018-04-13 13:45:13 pid:25236 Workerman[start.php] stopping ...
+2018-04-13 13:45:13 pid:25236 Workerman[start.php] has been stopped
+2018-04-13 13:45:33 pid:26285 Workerman[start.php] start in DEBUG mode
+2018-04-13 13:52:14 pid:26285 Workerman[start.php] stopping ...
+2018-04-13 13:52:14 pid:26285 Workerman[start.php] has been stopped
+2018-04-13 13:52:28 pid:26569 Workerman[start.php] start in DEBUG mode
+2018-04-13 14:14:50 pid:26569 Workerman[start.php] stopping ...
+2018-04-13 14:14:50 pid:26569 Workerman[start.php] has been stopped
+2018-04-13 14:15:13 pid:27020 Workerman[start.php] start in DEBUG mode
+2018-04-13 14:21:53 pid:27020 Workerman[start.php] stopping ...
+2018-04-13 14:21:53 pid:27020 Workerman[start.php] has been stopped
+2018-04-13 14:22:10 pid:27269 Workerman[start.php] start in DEBUG mode
+2018-04-13 14:48:05 pid:27269 Workerman[start.php] stopping ...
+2018-04-13 14:48:05 pid:27269 Workerman[start.php] has been stopped
+2018-04-13 14:48:12 pid:27730 Workerman[start.php] start in DEBUG mode
+2018-04-13 14:50:54 pid:27730 Workerman[start.php] stopping ...
+2018-04-13 14:50:54 pid:27730 Workerman[start.php] has been stopped
+2018-04-13 14:50:57 pid:27894 Workerman[start.php] start in DEBUG mode
+2018-04-13 15:00:06 pid:27894 Workerman[start.php] stopping ...
+2018-04-13 15:00:06 pid:27894 Workerman[start.php] has been stopped
+2018-04-13 15:01:45 pid:28103 Workerman[start.php] start in DEBUG mode
+2018-04-13 15:10:24 pid:28103 Workerman[start.php] stopping ...
+2018-04-13 15:10:24 pid:28103 Workerman[start.php] has been stopped
+2018-04-13 15:11:22 pid:28269 Workerman[start.php] start in DEBUG mode
+2018-04-13 15:19:31 pid:28269 Workerman[start.php] stopping ...
+2018-04-13 15:19:31 pid:28269 Workerman[start.php] has been stopped
+2018-04-13 15:21:56 pid:28477 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:38:38 pid:28477 Workerman[start.php] stopping ...
+2018-04-14 09:38:38 pid:28477 Workerman[start.php] has been stopped
+2018-04-14 09:38:41 pid:31605 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:39:22 pid:31605 Workerman[start.php] stopping ...
+2018-04-14 09:39:22 pid:31605 Workerman[start.php] has been stopped
+2018-04-14 09:39:24 pid:31844 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:42:17 pid:31848 Error: Call to undefined method Events::saveTmp() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:696
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(729): Events::advoise('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"ad...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"ad...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43, 2, Resource id #43)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#14 {main}
+2018-04-14 09:42:17 pid:31848 Worker process terminated
+2018-04-14 09:42:17 pid:31844 worker[MessageSystem:31848] exit with status 64000
+2018-04-14 09:42:17 pid:32046 Error: Call to undefined method Events::saveTmp() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:696
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(729): Events::advoise('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"ad...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"ad...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44, 2, Resource id #44)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-14 09:42:17 pid:32046 Worker process terminated
+2018-04-14 09:42:17 pid:31844 worker[MessageSystem:32046] exit with status 64000
+2018-04-14 09:42:22 pid:32047 Error: Call to undefined method Events::saveTmp() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:696
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(729): Events::advoise('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"ad...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"ad...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45, 2, Resource id #45)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-14 09:42:22 pid:32047 Worker process terminated
+2018-04-14 09:42:22 pid:31844 worker[MessageSystem:32047] exit with status 64000
+2018-04-14 09:42:30 pid:32048 Error: Call to undefined method Events::saveTmp() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:696
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(729): Events::advoise('7f0000010b54000...', Array)
+#1 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"ad...')
+#2 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"ad...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46, 2, Resource id #46)
+#6 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#15 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#16 {main}
+2018-04-14 09:42:30 pid:32048 Worker process terminated
+2018-04-14 09:42:30 pid:31844 worker[MessageSystem:32048] exit with status 64000
+2018-04-14 09:42:50 pid:31844 Workerman[start.php] stopping ...
+2018-04-14 09:42:50 pid:31844 Workerman[start.php] has been stopped
+2018-04-14 09:43:47 pid:32105 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:44:05 pid:32106 Error: Call to undefined method Events::get() in /var/Website/GatewayWorker/Applications/MessageSystem/Events.php:89
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(72): Events::consumeTmp('admin', '1')
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(725): Events::login('7f0000010b57000...', Array)
+#2 [internal function]: Events::onMessage('7f0000010b57000...', '{"msg_type":"lo...')
+#3 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"msg_type":"lo...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, Resource id #47)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#8 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#9 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#14 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#15 {main}
+2018-04-14 09:44:05 pid:32106 Worker process terminated
+2018-04-14 09:44:05 pid:32105 worker[MessageSystem:32106] exit with status 64000
+2018-04-14 09:44:14 pid:32105 Workerman[start.php] stopping ...
+2018-04-14 09:44:14 pid:32105 Workerman[start.php] has been stopped
+2018-04-14 09:44:52 pid:32185 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:52:02 pid:32185 Workerman[start.php] stopping ...
+2018-04-14 09:52:02 pid:32192 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-14 09:52:02 pid:32192 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-14 09:52:02 pid:32185 Workerman[start.php] has been stopped
+2018-04-14 09:52:04 pid:32425 Workerman[start.php] start in DEBUG mode
+2018-04-14 09:55:08 pid:32425 Workerman[start.php] stopping ...
+2018-04-14 09:55:08 pid:32425 Workerman[start.php] has been stopped
+2018-04-14 09:55:11 pid:32542 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:14:01 pid:32542 Workerman[start.php] stopping ...
+2018-04-14 10:14:01 pid:32542 Workerman[start.php] has been stopped
+2018-04-14 10:17:41 pid:33171 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:18:17 pid:33171 Workerman[start.php] stopping ...
+2018-04-14 10:18:17 pid:33171 Workerman[start.php] has been stopped
+2018-04-14 10:18:21 pid:33219 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:19:20 pid:33219 Workerman[start.php] stopping ...
+2018-04-14 10:19:20 pid:33219 Workerman[start.php] has been stopped
+2018-04-14 10:19:24 pid:33302 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:25:54 pid:33302 Workerman[start.php] stopping ...
+2018-04-14 10:25:54 pid:33302 Workerman[start.php] has been stopped
+2018-04-14 10:26:19 pid:33436 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:45:02 pid:33436 Workerman[start.php] stopping ...
+2018-04-14 10:45:02 pid:33436 Workerman[start.php] has been stopped
+2018-04-14 10:45:05 pid:33912 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:45:31 pid:33912 Workerman[start.php] stopping ...
+2018-04-14 10:45:31 pid:33919 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-14 10:45:31 pid:33912 Workerman[start.php] has been stopped
+2018-04-14 10:47:36 pid:34098 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:47:48 pid:34098 Workerman[start.php] stopping ...
+2018-04-14 10:47:48 pid:34098 Workerman[start.php] has been stopped
+2018-04-14 10:48:52 pid:34165 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:50:12 pid:34165 Workerman[start.php] stopping ...
+2018-04-14 10:50:12 pid:34165 Workerman[start.php] has been stopped
+2018-04-14 10:51:43 pid:34283 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:52:27 pid:34283 Workerman[start.php] stopping ...
+2018-04-14 10:52:27 pid:34283 Workerman[start.php] has been stopped
+2018-04-14 10:52:30 pid:34324 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:52:53 pid:34324 Workerman[start.php] stopping ...
+2018-04-14 10:52:53 pid:34324 Workerman[start.php] has been stopped
+2018-04-14 10:52:55 pid:34366 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:53:12 pid:34366 Workerman[start.php] stopping ...
+2018-04-14 10:53:12 pid:34366 Workerman[start.php] has been stopped
+2018-04-14 10:53:14 pid:34397 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:56:59 pid:34397 Workerman[start.php] stopping ...
+2018-04-14 10:56:59 pid:34397 Workerman[start.php] has been stopped
+2018-04-14 10:57:26 pid:34502 Workerman[start.php] start in DEBUG mode
+2018-04-14 10:57:57 pid:34506 Exception: MySQL 不支持的数据类型 in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:143
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(189): Core\Lib\Database->type(Array)
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(231): Core\Lib\Database->query('select count(ro...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(588): Core\Lib\Database->get('select count(ro...', Array)
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(96): Events::insertRoomUser(Array, 'admin', '1')
+#4 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(72): Events::consumeTmp('admin', '1')
+#5 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(748): Events::login('7f0000010b54000...', Array)
+#6 [internal function]: Events::onMessage('7f0000010b54000...', '{"msg_type":"lo...')
+#7 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"msg_type":"lo...')
+#8 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#10 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43, 2, Resource id #43)
+#11 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#13 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#16 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#17 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#18 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#19 {main}
+2018-04-14 10:57:57 pid:34506 Worker process terminated
+2018-04-14 10:57:57 pid:34502 worker[MessageSystem:34506] exit with status 64000
+2018-04-14 10:58:16 pid:34502 Workerman[start.php] stopping ...
+2018-04-14 10:58:16 pid:34502 Workerman[start.php] has been stopped
+2018-04-14 11:02:41 pid:34658 Workerman[start.php] start in DEBUG mode
+2018-04-14 23:18:58 pid:34658 Workerman[start.php] stopping ...
+2018-04-14 23:18:58 pid:34658 Workerman[start.php] has been stopped
+2018-04-15 10:28:12 pid:4840 Workerman[start.php] start in DEBUG mode
+2018-04-15 10:29:46 pid:4841 PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(505): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(706): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(763): Events::advoise('7f0000010b55000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45, 2, Resource id #45)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#17 {main}
+2018-04-15 10:29:46 pid:4841 Worker process terminated
+2018-04-15 10:29:46 pid:4840 worker[MessageSystem:4841] exit with status 64000
+2018-04-15 10:29:53 pid:5147 PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(505): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(706): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(763): Events::advoise('7f0000010b55000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46, 2, Resource id #46)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#17 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#18 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#19 {main}
+2018-04-15 10:29:53 pid:5147 Worker process terminated
+2018-04-15 10:29:53 pid:4840 worker[MessageSystem:5147] exit with status 64000
+2018-04-15 10:29:55 pid:5148 PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(505): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(706): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(763): Events::advoise('7f0000010b55000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47, 2, Resource id #47)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#17 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#18 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#19 {main}
+2018-04-15 10:29:55 pid:5148 Worker process terminated
+2018-04-15 10:29:55 pid:4840 worker[MessageSystem:5148] exit with status 64000
+2018-04-15 10:29:57 pid:5149 PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(505): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(706): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(763): Events::advoise('7f0000010b55000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48, 2, Resource id #48)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#17 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#18 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#19 {main}
+2018-04-15 10:29:57 pid:5149 Worker process terminated
+2018-04-15 10:29:57 pid:4840 worker[MessageSystem:5149] exit with status 64000
+2018-04-15 10:29:59 pid:5150 PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php:192
+Stack trace:
+#0 /var/Website/GatewayWorker/Applications/MessageSystem/Core/Lib/Database.php(192): PDOStatement->execute()
+#1 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(505): Core\Lib\Database->query('insert into vm_...', Array)
+#2 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(706): Events::persistent('bdb1dd105679979...')
+#3 /var/Website/GatewayWorker/Applications/MessageSystem/Events.php(763): Events::advoise('7f0000010b55000...', Array)
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"msg_type":"ad...')
+#5 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"msg_type":"ad...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /var/Website/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(657): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49, 2, Resource id #49)
+#9 /var/Website/GatewayWorker/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#10 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(2096): Workerman\Events\Event->loop()
+#11 /var/Website/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#12 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1294): GatewayWorker\BusinessWorker->run()
+#13 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#15 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1426): Workerman\Worker::forkWorkers()
+#16 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(1375): Workerman\Worker::monitorWorkersForLinux()
+#17 /var/Website/GatewayWorker/vendor/workerman/workerman/Worker.php(461): Workerman\Worker::monitorWorkers()
+#18 /var/Website/GatewayWorker/start.php(38): Workerman\Worker::runAll()
+#19 {main}
+2018-04-15 10:29:59 pid:5150 Worker process terminated
+2018-04-15 10:29:59 pid:4840 worker[MessageSystem:5150] exit with status 64000
+2018-04-15 10:30:32 pid:4840 Workerman[start.php] stopping ...
+2018-04-15 10:30:32 pid:4840 Workerman[start.php] has been stopped
+2018-04-15 10:31:48 pid:5281 Workerman[start.php] start in DEBUG mode
+2018-04-16 16:30:10 pid:5281 Workerman[start.php] stopping ...
+2018-04-16 16:30:11 pid:5281 Workerman[start.php] has been stopped
+2018-04-19 22:38:25 pid:32312 Workerman[start.php] start in DEBUG mode
+2018-04-20 09:15:26 pid:32312 Workerman[start.php] stopping ...
+2018-04-20 09:15:26 pid:32317 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-04-20 09:15:26 pid:32312 Workerman[start.php] has been stopped

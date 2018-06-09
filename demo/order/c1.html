@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="order-list">
+    <div class="item" data-id="1">订单 1</div>
+    <div class="item" data-id="2">订单 2</div>
+    <div class="item" data-id="3">订单 3</div>
+    <div class="item" data-id="4">订单 4</div>
+</div>
+
+<br />
+
+请输入消息:<input type="text" placeholder="消息" id="msg" />&nbsp;<button id="send" type="button">点击我发送消息</button>
+
+<script>
+    (function(){
+        "use strict";
+
+        // 生成聊天室 id
+        // 用户 id
+        var userID      = 1;
+        var userType    = 'user';
+        var url = 'http://chat.com/api/genChatRoomID?msg_type=order&user_id=' + userID + '&order_id=';
+        // 项目列表
+        var items = document.querySelectorAll('.order-list .item');
+        var conn = login();
+        var input = document.getElementById('msg');
+        var btn = document.getElementById('send');
+
+        console.log(items);
+
+        for (var i = 0; i < items.length; ++i)
+        {
+            var cur = items[i];
+
+            cur.addEventListener('click' , function(event){
+                var tar = event.currentTarget;
+                var orderID = tar.getAttribute('id');
+                var link = url + orderID;
+
+                var xhr = new XMLHttpRequest();
+                xhr.open('get' , url , true);
+                xhr.withCredentials = true;
+
+                xhr.addEventListener('readystatechange' , function(){
+                    if (this.readyState === 4 && this.status === 200) {
+                        var room = this.responseText;
+
+                        btn.onclick = connect.bind(null , room);
+                    }
+                } , false);
+            });
+        }
+
+        // 注册
+        function login(){
+            var ws = new WebSocket('ws://127.0.0.1:8282');
+
+            var login = {
+                msg_type: 'login' ,
+                user_type: userType ,
+                user_id: userID ,
+                thumb: '' ,
+                username: 'grayVTouch'
+            };
+
+            login = JSON.stringify(login);
+
+            ws.addEventListener('open' , function(){
+                console.log('websocket 成功打开连接');
+
+                // 用户 ws 注册
+                ws.send(login);
+            } , false);
+
+            ws.addEventListener('message' , function(event){
+                console.log(event.data);
+            } , false);
+
+            ws.addEventListener('close' , function(event){
+                console.log('websocket 已经关闭连接');
+            } , false);
+
+            return ws;
+        }
+
+        // 聊天
+        function connect(room){
+            var content =  input.value;
+
+            var msg = {
+                msg_type: 'order' ,
+                user_id: userID ,
+                user_type: userType ,
+                thumb: '' ,
+                username: 'grayVTouch' ,
+                chat_room_id: room ,
+                content: content
+            };
+
+            // json_encode 后的消息
+            msg = JSON.stringify(msg);
+
+            ws.send(msg);
+        }
+    })();
+</script>
+</body>
+</html>

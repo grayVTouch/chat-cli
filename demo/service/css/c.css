@@ -1,0 +1,155 @@
+.hide {
+    display:none !important;
+}
+
+.title {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.info {
+    margin-bottom:15px;
+}
+
+.error {
+    margin-bottom:15px;
+}
+
+.error .content {
+    border:1px solid #ccc;
+    border-top:none;
+    padding:10px;
+}
+
+.chat {
+
+}
+
+.chat > * {
+    float:left;
+    box-sizing:border-box;
+    margin-right:12px;
+}
+
+.chat:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.chat .rooms {
+    width:180px;
+    min-height:50px;
+}
+
+.chat .rooms .item-list {
+    padding:10px 0px;
+    border:1px solid #ccc;
+    border-top:none;
+    min-height:200px;
+    background-color:#4b4b4b;
+}
+
+.chat .rooms .item-list .item {
+    padding:8px;
+    background-color:dimgrey;
+    color:white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom:1px solid dimgrey;
+}
+
+.chat .rooms .item-list .item:hover {
+    color:#d0d0d0;
+    cursor:pointer;
+    text-shadow:0px 0px 2px red;
+}
+
+.chat .rooms .item-list .item:active {
+
+}
+
+.chat .rooms .item-list .item.cur {
+    cursor:pointer;
+    text-shadow:0px 0px 2px red;
+}
+
+.chat .message {
+    padding:5px;
+    border:1px solid black;
+    margin-bottom:12px;
+}
+
+.chat .message .msg-item {
+
+}
+
+.chat .message .msg-item:after {
+    display:block;
+    content:'';
+    clear:both;
+}
+
+.chat .message .msg-item > * {
+    float:left;
+    box-sizing:border-box;
+    margin-right:12px;
+}
+
+.chat .message .msg-item .history {
+    width:400px;
+}
+
+.chat .message .msg-item .history .content {
+    border:1px solid #ccc;
+    border-top:none;
+    padding:8px;
+}
+
+.chat .message .msg-item .history .content .function {
+    text-align:center;
+}
+
+.chat .message .msg-item .history .content .msg-list {
+    max-height:100px;
+    overflow:hidden;
+    overflow-y:auto;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    margin-bottom:12px;
+    border:1px solid red;
+}
+
+.chat .message .msg-item .history .content .msg-list .item {
+    font-size:14px;
+}
+
+.chat .message .msg-item .history .content .input {
+
+}
+
+.chat .message .msg-item .history .content .input .textarea {
+    width:200px;
+    height:80px;
+    margin-bottom:12px;
+    display:block;
+}
+
+.chat .users {
+
+}
+
+.chat .users .item-list {
+    border:1px solid #ccc;
+    border-top:none;
+    padding:10px;
+    min-height:200px;
+}
+
+.chat .users .item-list .item {
+    height:24px;
+    line-height:24px;
+    font-size:14px;
+    border-bottom:1px solid red;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr>
+        <td>我发送的消息:</td>
+        <td id="send_msg">...</td>
+    </tr>
+
+    <tr>
+        <td>我接受到的消息:</td>
+        <td id="recv_msg">...</td>
+    </tr>
+    </tbody>
+</table>
+
+请输入消息:<input type="text" id="input" />&nbsp;<button type="button" id="send">发送</button>
+
+<script src="SmallJs.js"></script>
+<script>
+    (function(){
+        "use strict";
+
+        var sendMsg = G('#send_msg');
+        var recvMsg = G('#recv_msg');
+        var input = G('#input');
+        var send = G('#send');
+
+        var msgType = 'advoise';
+        var user = {
+            userID: 2 ,
+            userType: 'user' ,
+            nickname: 'yueshu' ,
+            thumb: ''
+        };
+        var wsLink = 'ws://127.0.0.1:8282';
+        var ws = new WebSocket(wsLink);
+        var roomID = false;
+
+        ws.addEventListener('open' , function(){
+            var loginData = {
+                msg_type: 'login' ,
+                user_type: user['userType'] ,
+                user_id: user['userID'] ,
+                nickname: user['nickname'] ,
+                thumb: user['thumb']
+            };
+
+            ws.send(G.jsonEncode(loginData));
+        } , false);
+
+        ws.addEventListener('message' , function(event){
+            var data = event.data;
+            data = G.jsonDecode(data);
+
+            if (data['msg_type'] === 'history') {
+                console.log('历史记录同步' , data);
+            } else if (data['msg_type'] === 'advoise') {
+                recvMsg.get().textContent = data['content'];
+            } else {
+                console.log('还在开发中的功能');
+            }
+        } , false);
+
+        ws.addEventListener('close' , function(){
+            console.log('websocket 连接已经关闭');
+        } , false);
+
+        send.loginEvent('click' , function(){
+            var v = input.get().value;
+
+            if (v === '') {
+                console.log('请输入数据');
+                return ;
+            }
+
+            if (!roomID) {
+                console.log('尚未生成房间ID');
+            }
+
+            sendMsg.get().textContent = v;
+
+            var data = {
+                msg_type: 'advoise' ,
+                user_type: user['userType'] ,
+                user_id: user['userID'] ,
+                nickname: user['nickname'] ,
+                thumb: user['thumb'] ,
+                chat_room_id: roomID ,
+                content: v
+            };
+
+            ws.send(G.jsonEncode(data));
+        } , true , false);
+
+        var createLink  = "http://chat.com/api/createChatRoom";
+        var joinLink    = 'http://chat.com/api/joinChatRoom';
+
+        var formData = {
+            msg_type: msgType ,
+            user_type: user['userType'] ,
+            user_id: user['userID']
+        };
+
+        var sendData = G.getFormData(formData);
+
+        // console.log(formData);
+
+        G.ajax({
+            url: createLink ,
+            method: 'post' ,
+            sendData: sendData ,
+            success: function(json){
+                var data = G.jsonDecode(json);
+
+                if (data['status'] === 'failed') {
+                    console.log(data['msg']);
+                } else {
+                    roomID = data['msg'];
+                    console.log('创建房间id成功,id=' + data['msg']);
+
+                    var formData = {
+                        chat_room_id: data['msg'] ,
+                        users: G.jsonEncode([
+                            {
+                                user_type: user['userType'] ,
+                                user_id: user['userID']
+                            }
+                        ])
+                    };
+
+                    var sendData = G.getFormData(formData);
+
+                    // 加入房间
+                    G.ajax({
+                        url: joinLink ,
+                        method: 'post' ,
+                        sendData: sendData ,
+                        success: function(json){
+                            var data = G.jsonDecode(json);
+
+                            if (data['status'] === 'failed') {
+                                console.log(data['msg']);
+                            } else {
+                                console.log('加入聊天室成功,此次加入聊天室的成员数量:' + data['msg']);
+                            }
+                        }
+                    });
+                }
+            }
+
+        });
+    })();
+</script>
+</body>
+</html>
